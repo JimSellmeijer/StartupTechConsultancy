@@ -1,0 +1,51 @@
+# Site builds
+_site/
+
+# Dependency directories
+/vendor/
+.bundle/
+node_modules/
+
+# Jekyll metadata
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Configuration files
+_config.yml
+_secret.yml
+
+# Environment normalization
+/.env
+/.ruby-version
+
+# Ignore Mac and Linux system files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore text editor/IDE specific files
+.idea/
+.vscode/
+*.sublime*
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*~
+
+# Exclude image files that are outputs or resources
+# Add or remove the extensions according to your project's needs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Exclude personal files or directories
+/notes/
+/todo/
