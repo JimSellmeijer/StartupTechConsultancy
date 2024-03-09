@@ -5179,6 +5179,13 @@ ul.social_link li a:focus {
     margin-left: 25px;
 }
 
+ol {
+    list-style-type: decimal; /* Ensures ordered lists have decimal numbers */
+}
+ol > li {
+    list-style-type: disc; /* Ensures list items inside ordered lists have bullet points */
+    margin-left: 20px; /* Adds indentation to list items for better readability */
+}
 .comment_list_area .single_comment .comment_text h5 span {
     float: right;
     font-size: 14px;
