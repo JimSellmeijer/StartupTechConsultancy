@@ -1,50 +1,76 @@
- - text: Home
-   url: "/"
-   dropdown:
-    - text: "Home IT Business"
-      url: "index_2.html"
-    - text: "Home IT Startup"
-      url: "index_3.html"
+#  - text: Home
+#    url: ""
 
- - text: Company
-   url: "#"
-   dropdown:
-    - text: "About us"
-      url: "about.html"
-    - text: "Our Services"
-      url: "services.html"
-    - text: "Our History"
-      url: "history.html"
-
- - text: Portfolio
-   url: "#"
-   dropdown:
-    - text: "Portfolios 01"
-      url: "portfolios_1.html"
-    - text: "Portfolio 02"
-      url: "portfolios_2.html"
-    - text: "Portfolio 03"
-      url: "portfolios_3.html"
-    - text: "Portfolio details"
+- text: Services
+  url: "services.html" #todo: add services.html
+  dropdown:
+  - text: "End-To-End Data Strategy"
+    url: "end_to_end_data_strategy.html"
+  - text: "Service 02"
+    url: "service_2.html"
+  - text: "Service 03"
+    url: "service_3.html"
+- text: "Industries"
+  url: "industries.html" #todo: add industries.html
+  dropdown:
+  - text: "Industry 01"
+    url: "industry_1.html"
+  - text: "Industry 02"
+    url: "industry_2.html"
+  - text: "Industry 03"
+    url: "industry_3.html"
+  - text: "Industry details"
+    url: "industry_details.html"
+- text: Case Studies
+  url: "case_studies.html" #todo: add case_studies.html
+  dropdown:
+    - text: "Case 01"
+      url: "case_1.html"
+    - text: "Case 02"
+      url: "case_2.html"
+    - text: "Case 03"
+      url: "case_3.html"
+    - text: "Case details"
       url: "case_details.html"
+- text: Company
+  url: "#"
+  dropdown:
+  - text: "About us"
+    url: "about.html"
+  - text: "Our Services"
+    url: "services.html"
+  - text: "Our History"
+    url: "history.html"
 
- - text: Pages
-   url: "#"
-   dropdown:
-    - text: "FAQ"
-      url: "faq.html"
-    - text: "Our Team"
-      url: "team.html"
-    - text: "404"
-      url: "404.html"
+# - text: Portfolio
+#   url: "#"
+#   dropdown:
+#   - text: "Portfolios 01"
+#     url: "portfolios_1.html"
+#   - text: "Portfolio 02"
+#     url: "portfolios_2.html"
+#   - text: "Portfolio 03"
+#     url: "portfolios_3.html"
+#   - text: "Portfolio details"
+#     url: "case_details.html"
 
- - text: "News"
-   url: "#"
-   dropdown: 
-    - text: "Blog grid"
-      url: "blog_grid.html"
-    - text: "Blog List"
-      url: "blog_list.html"
+# - text: Pages
+#   url: "#"
+#   dropdown:
+#   - text: "FAQ"
+#     url: "faq.html"
+#   - text: "Our Team"
+#     url: "team.html"
+#   - text: "404"
+#     url: "404.html"
 
- - text: "Contact"
-   url: "contact.html"
+- text: "Magazine"
+  url: "blog_grid.html"
+#  dropdown: 
+#   - text: "Blog grid"
+#     url: "blog_grid.html"
+#   - text: "Blog List"
+#     url: "blog_list.html"
+
+- text: "Contact"
+  url: "contact.html"
