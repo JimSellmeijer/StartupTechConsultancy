@@ -139,6 +139,9 @@ body {
     line-height: 26px;
     overflow-x: hidden;
 }
+.data-strategy-content ul {
+    list-style-type: disc; /* This line is added to enable bullet points */
+}
 
 html {
     overflow-x: hidden;
