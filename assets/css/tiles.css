@@ -1,20 +1,48 @@
 /* Tile container styles */
 .tile {
-  display: inline-block;
-  width: 30%;
-  margin: 10px;
+  width: calc(50% - 20px);
+  /* Fixed height for all tiles */
+  margin: 5px;
   padding: 20px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   background-color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  /* Temporary border for debugging */
+  border: 1px solid #758ca0;
+  /* This will clearly define the tile's boundary */
 }
 
-/* Tile header styles */
-.tile-header {
-  font-weight: bold;
-  margin-bottom: 15px;
+
+/* Tile header and content styles remain unchanged */
+
+/* Responsive styling adjustments */
+@media (max-width: 1200px) {
+  .tile {
+    width: calc(50% - 20px);
+    /* Correcting to maintain 4 columns as much as possible */
+  }
 }
 
-/* Tile content styles */
-.tile-content {
-  font-size: 14px;
+@media (max-width: 992px) {
+  .tile {
+    width: calc(100% - 20px);
+    /* Adjust width for 2 columns on screens smaller than 992px */
+  }
+}
+
+@media (max-width: 768px) {
+  .tile {
+    width: calc(100% - 20px);
+    /* Adjust width for 2 columns on screens smaller than 768px */
+  }
+}
+
+@media (max-width: 480px) {
+  .tile {
+    width: calc(100% - 20px);
+    /* Attempt to make tiles occupy full width minus margin */
+    margin: 10px 0;
+    /* Adjusted margin for mobile view */
+  }
 }

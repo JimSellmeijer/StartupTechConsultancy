@@ -31,7 +31,7 @@
     - text: "Case 03"
       url: "case_3.html"
     - text: "Case details"
-      url: "case_details.html"
+      url: "original_template_case_details.html"
 - text: Company
   url: "#"
   dropdown:
