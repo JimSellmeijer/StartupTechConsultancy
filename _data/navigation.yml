@@ -6,21 +6,21 @@
   dropdown:
   - text: "End-To-End Data Strategy"
     url: "end_to_end_data_strategy.html"
-  - text: "Service 02"
-    url: "original_template_case_details.html"
+  - text: "Machine Learning & <br>Predictive Analytics"
+    url: "machine_learning_and_predictive_analytics.html"
   - text: "Service 03"
     url: "service_3.html"
-- text: "Industries"
-  url: "industries.html" #todo: add industries.html
-  dropdown:
-  - text: "Industry 01"
-    url: "industry_1.html"
-  - text: "Industry 02"
-    url: "industry_2.html"
-  - text: "Industry 03"
-    url: "industry_3.html"
-  - text: "Industry details"
-    url: "industry_details.html"
+# - text: "Industries"
+#   url: "industries.html" #todo: add industries.html
+#   dropdown:
+#   - text: "Industry 01"
+#     url: "industry_1.html"
+#   - text: "Industry 02"
+#     url: "industry_2.html"
+#   - text: "Industry 03"
+#     url: "industry_3.html"
+#   - text: "Industry details"
+#     url: "industry_details.html"
 - text: Case Studies
   url: "case_studies.html" #todo: add case_studies.html
   dropdown:
@@ -31,7 +31,7 @@
     - text: "Case 03"
       url: "case_3.html"
     - text: "Case details"
-      url: "case_details.html"
+      url: "original_template_case_details.html"
 - text: Company
   url: "#"
   dropdown:
@@ -64,8 +64,8 @@
 #   - text: "404"
 #     url: "404.html"
 
-- text: "Magazine"
-  url: "blog_grid.html"
+# - text: "Magazine"
+#   url: "blog_grid.html"
 #  dropdown: 
 #   - text: "Blog grid"
 #     url: "blog_grid.html"
