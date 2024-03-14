@@ -2801,7 +2801,7 @@ textarea.form_control {
     width: 100%;
     left: 0;
     bottom: 0;
-    background: #28c6b8;
+    background: #0574ff;
     z-index: -1;
     transition: all linear 0.3s;
 
@@ -2844,11 +2844,11 @@ textarea.form_control {
 }
 
 .about_service_box.hb_2 .overlay::before {
-    background: #0574ff;
+    background: #ff9600;
 }
 
 .about_service_box.hb_3 .overlay::before {
-    background: #ff9600;
+    background: #28c6b8;
 }
 
 .about_service_box.hb_4 .overlay::before {
@@ -2860,16 +2860,20 @@ textarea.form_control {
 
 
 
-.hb_1 {
+
+
+
+.hb_3 {
     border-color: #28c6b8;
+}
+
+.hb_1 {
+    border-color: #0574ff;
 }
 
 .hb_2 {
     margin-top: 40px;
-    border-color: #0574ff;
-}
 
-.hb_3 {
     border-color: #ff9600;
 
 }
