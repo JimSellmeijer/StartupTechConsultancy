@@ -4,14 +4,15 @@
 - text: Services
   url: "services.html" #todo: add services.html
   dropdown:
+  - text: "Leading Development"
+    url: "leading_software_development.html"
+  - text: "Technology Strategy"
+    url: "technology_strategy.html"
   - text: "End-To-End Data Strategy"
     url: "end_to_end_data_strategy.html"
   - text: "Machine Learning & <br>Predictive Analytics"
     url: "machine_learning_and_predictive_analytics.html"
-  - text: "Service 03"
-    url: "service_3.html"
-# - text: "Industries"
-#   url: "industries.html" #todo: add industries.html
+
 #   dropdown:
 #   - text: "Industry 01"
 #     url: "industry_1.html"
@@ -24,23 +25,23 @@
 - text: Case Studies
   url: "case_studies.html" #todo: add case_studies.html
   dropdown:
-    - text: "Case 01"
+    - text: "Workbee"
       url: "case_1.html"
-    - text: "Case 02"
-      url: "case_2.html"
-    - text: "Case 03"
-      url: "case_3.html"
-    - text: "Case details"
-      url: "original_template_case_details.html"
-- text: Company
-  url: "#"
-  dropdown:
-  - text: "About us"
-    url: "about.html"
-  - text: "Our Services"
-    url: "services.html"
-  - text: "Our History"
-    url: "history.html"
+    # - text: "Case 02"
+    #   url: "case_2.html"
+    # - text: "Case 03"
+    #   url: "case_3.html"
+    # - text: "Case details"
+    #   url: "original_template_case_details.html"
+- text: About me
+  url: "about.html"
+  # dropdown:
+  # - text: "About me"
+  #   url: "about.html"
+  # - text: "My Services"
+  #   url: "services.html"
+  # - text: "Our History"
+  #   url: "history.html"
 
 # - text: Portfolio
 #   url: "#"
