@@ -1,9 +1,11 @@
 #  - text: Home
 #    url: ""
 
-- text: Services
+- text: CTO-as-a-Service
   url: "services.html" #todo: add services.html
   dropdown:
+  - text: "CTO-as-a-Service"
+    url: "services.html"
   - text: "Leading Development"
     url: "leading_software_development.html"
   - text: "Technology Strategy"
@@ -12,6 +14,9 @@
     url: "end_to_end_data_strategy.html"
   - text: "Machine Learning & <br>Predictive Analytics"
     url: "machine_learning_and_predictive_analytics.html"
+  - text: "Prototyping & MVP"
+    url: "prototyping_and_mvp_development.html"
+
 
 #   dropdown:
 #   - text: "Industry 01"
@@ -22,11 +27,11 @@
 #     url: "industry_3.html"
 #   - text: "Industry details"
 #     url: "industry_details.html"
-- text: Case Studies
-  url: "case_studies.html" #todo: add case_studies.html
-  dropdown:
-    - text: "Workbee"
-      url: "case_1.html"
+# - text: Case Studies
+#   url: "case_studies.html" #todo: add case_studies.html
+#   dropdown:
+#     - text: "Workbee"
+#       url: "case_1.html"
     # - text: "Case 02"
     #   url: "case_2.html"
     # - text: "Case 03"
