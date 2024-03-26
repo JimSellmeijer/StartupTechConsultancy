@@ -1,11 +1,11 @@
 #  - text: Home
 #    url: ""
 
-- text: CTO-as-a-Service
-  url: "services.html" #todo: add services.html
+- text: Services
+  url: "cto-as-a-service.html" #todo: add services.html
   dropdown:
   - text: "CTO-as-a-Service"
-    url: "services.html"
+    url: "cto-as-a-service.html"
   - text: "Leading Development"
     url: "leading_software_development.html"
   - text: "Technology Strategy"
