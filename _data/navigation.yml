@@ -2,10 +2,10 @@
 #    url: ""
 
 - text: Services
-  url: "cto-as-a-service.html" #todo: add services.html
+  url: "cto_as_a_service.html" #todo: add services.html
   dropdown:
   - text: "CTO-as-a-Service"
-    url: "cto-as-a-service.html"
+    url: "cto_as_a_service.html"
   - text: "Leading Development"
     url: "leading_software_development.html"
   - text: "Technology Strategy"
